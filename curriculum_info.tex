@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Twenty Seconds Curriculum Vitae in LaTex
+% ****************************************
+% 
+% License: MIT
+%
+% For further information please visit:
+% https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{twentysecondcv}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%% PROFILE SIDE BAR %%
+%%%%%%%%%%%%%%%%%%%%%%
+% personal info
+\profilepic{foto_info.png}          % path of profile pic
+\cvname{Alejandro Tomás Martínez}                   % your name
+\cvjobtitle{Técnico, arquitecto de sistemas y desarrollador software.}          % your actual job position
+\cvdate{1 marzo 2002}        % date of birth
+\cvaddress{Región de Murcia}       % address
+\cvnumberphone{684367994}   % telephone number
+\cvmail{alejandroworkspace@gmail.com}    % e-mail
+%\cvsite{https://github.com/itsAler} % personal site
+
+\aboutme{
+
+  Persona con compostura, locuaz y disciplinada. Tengo conocimientos en niveles de programación superior como son la arquitectura de sistemas, metodologías de desarrollo ágiles y Devops. Me desenvuelvo con soltura en la gran mayoría de lenguajes de programación comerciales, siendo capaz de trabajar de manera independiente o con entornos de desarrolo de agentes con Inteligencia Artificial. Cuento con amplia experiencia en todo el ciclo de vida de sistemas microinformáticos; desde el montaje, mantenimiento y puesta a punto de servidores y redes, hasta el monitoreo y desarrollo de microservicios.
+
+} % About me section
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Skill bar section, each skill must have a value between 0 an 6 (float) %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\skills{{SysAdmin/4},{DevOps/4},{C, C++, Java, Python, BBDD/4.0},{Networking/3.5},{C\# y .NET/3},{HTML, JS, PHP/1.5}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill text section, each skill must have a value between 0 an 6%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\skillstext{{Divertido/6},{Resolutivo/5},{Aprendíz ávido/4},{Inglés técnico, escrito y habla/4},{Puntual/3}}
+
+\makeprofile
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% END PROFILE SIDE BAR %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%
+%%%%%% BODY %%%%%%
+%%%%%%%%%%%%%%%%%%
+% Simple Section
+\section{intereses}
+
+  Dedico mi tiempo a aprender gran cantidad de destrezas, como la mécanica, la electrónica y proyectos personales relacionados con el ámbito de la informática.
+
+  Practico deporte de manera regular, si bien prefiero los planes comunmente asociados a la reflexión, como son el cine, la lectura o el teatro.
+  
+  Ayudo en mi comunidad haciendo de voluntario, participo en tertulias y grupos teatrales con los que desarrollo mi lado más curioso y creativo.
+
+\section{estudios}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% TWENTY LIST ITEMS %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%    Four arguments: date; title; where; description %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{twenty}
+  \twentyitem
+    {2019-2020}
+    {Estudios universitarios}
+    {Universidad Politécnica de Cartagena}
+    {Grado en ingeniería de telecomunicaciones}
+  \twentyitem
+    {2020-2026}
+    {Estudios universitarios}
+    {Universidad de Murcia}
+    {Grado en ingeniería informática, con especialidad en administración de sistemas, DevOps y Cloud Computing}
+\end{twenty}
+
+\section{experiencia}
+\begin{twenty}
+  \twentyitem
+    {2019-2024}
+    {Técnico de sistemas informáticos, infraestructura y montaje de equipos}
+    {Suministros informáticos ZonaPC}
+    {Atención al cliente, elaboración de presupuestos para equipos hardware, montaje de equipos y soporte técnico.}
+  \twentyitem
+    {2018-2020}
+    {Aprendiz de electricista y mecánica automotriz}
+    {Confrato Empresa Constructora sl}
+    {Instalador de sistemas de electricidad doméstica en baja tensión y mantenimiento básico de motores y vehículos comerciales ligeros.}
+  \twentyitem
+    {2024}
+    {Desarrollador software remunerado junto a la Universidad de Murcia y el COIE}
+    {Servicios de impresión y gestión documental NOVAC}
+    {Migración y actualización de un programa de facturación de servicios de impresión para distintos ayuntamientos de la Región de Murcia.}
+  \twentyitem
+    {2024}
+    {Técnico informático de sistemas}
+    {Librería Barqueros}
+    {Encargado de la gestión informatizada mediante software empresarial de puntos de venta TPV, inventario, entrada y salida de mercancía.}
+  \twentyitem
+    {2024-Actualidad}
+    {Voluntariado como técnico de audiovisuales y sistemas informáticos}
+    {Asociación de Jóvenes de Sangonera la Verde}
+    {Desarrollo de páginas web, montaje de equipos y despliegue de recursos técnicos, imagen y sonido para eventos de la asociación.}
+  \twentyitem
+    {2026}
+    {Arquitecto de sistemas y desarrollador DevOps}
+    {Consultora informática AmedidaTI}
+    {Planificación, desarrollo y despliegue de un sistema de microservicios para la monitorización y el control activo de sistemas microinformáticos bajo la norma Europea de Ciberseguridad NIS2}
+\end{twenty}
+
+
+%\section{otras curiosidades}
+ % \begin{itemize}
+  %  \item Si has llegado hasta aquí, ¡felicidades!, gracias por dedicarme tu atención \texttt{;)}.
+   % \item Dispongo de los requisitos básicos en materia de movilidad, como puede ser un vehículo propio y carnet. 
+    %\item He restaurado a lo largo de dos años la Vespa clásica con la que se me puede ver habitualmente.
+    %\item Mi ocio ideal es jugar algún deporte/videojuego competitivo, hacer teatro o leer en la intimidad.
+    %\item Me encanta utilizar una ortografía y léxico cuidados, aunque esto se pueda confundir hoy día con el uso de la inteligencia artificial.
+    %\item Tengo dos gatas preciosas; Misha y Luna <3.
+  %\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%% ENDBODY %%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\end{document} 
